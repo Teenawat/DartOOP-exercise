@@ -65,5 +65,5 @@ class CoinSlotProcessor implements PaymentProcessor {
 
     PaymentProcessor method2 = CoinSlotProcessor(50.0);
     method2.pay(laundryFee);
-    print(method1.getReceipt());
+    print(method2.getReceipt());
   }
