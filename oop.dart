@@ -30,7 +30,7 @@ class ImagePost extends FeedItem {
   // TODO 2: เขียนทับ (override) เมธอด renderWidget() เพื่อแสดงผลโพสต์รูปภาพ
   @override
   void renderWidget() {
-    print("📝 โพสต์รูป โดย $author");
+    print("🖼️ โพสต์รูป โดย $author");
     print("   \"$imageUrl\"");
     print("   ❤️ $likes ถูกใจ\n");
   }
