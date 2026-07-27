@@ -63,7 +63,7 @@ class CoinSlotProcessor implements PaymentProcessor {
     // TODO 3: สร้างอ็อบเจกต์ CoinSlotProcessor โดยกำหนดยอดเหรียญที่หยอดเป็น 50.0
     // เรียกใช้ pay(laundryFee) และพิมพ์ใบเสร็จออกมา
 
-    PaymentProcessor method2 = CoinSlotProcessor(50.0);
+    CoinSlotProcessor method2 = CoinSlotProcessor(50.0);
     method2.pay(laundryFee);
     print(method2.getReceipt());
   }
